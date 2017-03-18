@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  TextFieldEditeState
+//  ComeMoneyHere
 //
-//  Created by 李保东 on 17/3/18.
-//  Copyright © 2017年 DaviD. All rights reserved.
+//  Created by 李保东 on 16/11/14.
+//  Copyright © 2016年 李保东. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -12,6 +12,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-
+-(void)initRootViewController;
 @end
 

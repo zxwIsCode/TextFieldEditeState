@@ -8,13 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		05AC26A31E7D27D6004F05E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26A21E7D27D6004F05E9 /* main.m */; };
-		05AC26A61E7D27D6004F05E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26A51E7D27D6004F05E9 /* AppDelegate.m */; };
-		05AC26A91E7D27D6004F05E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26A81E7D27D6004F05E9 /* ViewController.m */; };
 		05AC26AC1E7D27D6004F05E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05AC26AA1E7D27D6004F05E9 /* Main.storyboard */; };
 		05AC26AE1E7D27D6004F05E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05AC26AD1E7D27D6004F05E9 /* Assets.xcassets */; };
 		05AC26B11E7D27D6004F05E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05AC26AF1E7D27D6004F05E9 /* LaunchScreen.storyboard */; };
 		05AC26BC1E7D27D6004F05E9 /* TextFieldEditeStateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26BB1E7D27D6004F05E9 /* TextFieldEditeStateTests.m */; };
 		05AC26C71E7D27D6004F05E9 /* TextFieldEditeStateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26C61E7D27D6004F05E9 /* TextFieldEditeStateUITests.m */; };
+		05AC26E21E7D2BFA004F05E9 /* CMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26DF1E7D2BFA004F05E9 /* CMBaseViewController.m */; };
+		05AC26E31E7D2BFA004F05E9 /* PBChangeMoneyBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26E11E7D2BFA004F05E9 /* PBChangeMoneyBaseViewController.m */; };
+		05AC26EB1E7D2C25004F05E9 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26E61E7D2C25004F05E9 /* AppDelegate.mm */; };
+		05AC26EC1E7D2C25004F05E9 /* CMHDemoDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26E81E7D2C25004F05E9 /* CMHDemoDefine.m */; };
+		05AC26EF1E7D2CCE004F05E9 /* CMCustomViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26EE1E7D2CCE004F05E9 /* CMCustomViewFactory.m */; };
+		05AC26F21E7D2D02004F05E9 /* DisplayHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26F11E7D2D02004F05E9 /* DisplayHelper.m */; };
+		05AC26F81E7D2D31004F05E9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 05AC26F41E7D2D31004F05E9 /* LICENSE */; };
+		05AC26F91E7D2D31004F05E9 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26F61E7D2D31004F05E9 /* MBProgressHUD.m */; };
+		05AC26FA1E7D2D31004F05E9 /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26F71E7D2D31004F05E9 /* README.mdown */; };
+		05AC27001E7D2DC0004F05E9 /* DaMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26FF1E7D2DC0004F05E9 /* DaMainTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +45,6 @@
 /* Begin PBXFileReference section */
 		05AC269E1E7D27D6004F05E9 /* TextFieldEditeState.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldEditeState.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05AC26A21E7D27D6004F05E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		05AC26A41E7D27D6004F05E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		05AC26A51E7D27D6004F05E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		05AC26A71E7D27D6004F05E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		05AC26A81E7D27D6004F05E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		05AC26AB1E7D27D6004F05E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05AC26AD1E7D27D6004F05E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05AC26B01E7D27D6004F05E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,26 @@
 		05AC26C21E7D27D6004F05E9 /* TextFieldEditeStateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldEditeStateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05AC26C61E7D27D6004F05E9 /* TextFieldEditeStateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldEditeStateUITests.m; sourceTree = "<group>"; };
 		05AC26C81E7D27D6004F05E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05AC26DE1E7D2BFA004F05E9 /* CMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBaseViewController.h; sourceTree = "<group>"; };
+		05AC26DF1E7D2BFA004F05E9 /* CMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBaseViewController.m; sourceTree = "<group>"; };
+		05AC26E01E7D2BFA004F05E9 /* PBChangeMoneyBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBChangeMoneyBaseViewController.h; sourceTree = "<group>"; };
+		05AC26E11E7D2BFA004F05E9 /* PBChangeMoneyBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBChangeMoneyBaseViewController.m; sourceTree = "<group>"; };
+		05AC26E51E7D2C25004F05E9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05AC26E61E7D2C25004F05E9 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		05AC26E71E7D2C25004F05E9 /* CMHDemoDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHDemoDefine.h; sourceTree = "<group>"; };
+		05AC26E81E7D2C25004F05E9 /* CMHDemoDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHDemoDefine.m; sourceTree = "<group>"; };
+		05AC26E91E7D2C25004F05E9 /* CMHHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHHeader.h; sourceTree = "<group>"; };
+		05AC26EA1E7D2C25004F05E9 /* TextFieldES.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldES.pch; sourceTree = "<group>"; };
+		05AC26ED1E7D2CCE004F05E9 /* CMCustomViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMCustomViewFactory.h; sourceTree = "<group>"; };
+		05AC26EE1E7D2CCE004F05E9 /* CMCustomViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMCustomViewFactory.m; sourceTree = "<group>"; };
+		05AC26F01E7D2D02004F05E9 /* DisplayHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayHelper.h; sourceTree = "<group>"; };
+		05AC26F11E7D2D02004F05E9 /* DisplayHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayHelper.m; sourceTree = "<group>"; };
+		05AC26F41E7D2D31004F05E9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		05AC26F51E7D2D31004F05E9 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		05AC26F61E7D2D31004F05E9 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		05AC26F71E7D2D31004F05E9 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		05AC26FE1E7D2DC0004F05E9 /* DaMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaMainTableViewController.h; sourceTree = "<group>"; };
+		05AC26FF1E7D2DC0004F05E9 /* DaMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaMainTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +125,9 @@
 		05AC26A01E7D27D6004F05E9 /* TextFieldEditeState */ = {
 			isa = PBXGroup;
 			children = (
-				05AC26A41E7D27D6004F05E9 /* AppDelegate.h */,
-				05AC26A51E7D27D6004F05E9 /* AppDelegate.m */,
-				05AC26A71E7D27D6004F05E9 /* ViewController.h */,
-				05AC26A81E7D27D6004F05E9 /* ViewController.m */,
-				05AC26AA1E7D27D6004F05E9 /* Main.storyboard */,
-				05AC26AD1E7D27D6004F05E9 /* Assets.xcassets */,
-				05AC26AF1E7D27D6004F05E9 /* LaunchScreen.storyboard */,
-				05AC26B21E7D27D6004F05E9 /* Info.plist */,
+				05AC26DD1E7D2B97004F05E9 /* TextFeildState */,
+				05AC26E41E7D2C25004F05E9 /* General */,
+				05AC26D91E7D2B8F004F05E9 /* Class */,
 				05AC26A11E7D27D6004F05E9 /* Supporting Files */,
 			);
 			path = TextFieldEditeState;
@@ -117,6 +136,11 @@
 		05AC26A11E7D27D6004F05E9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				05AC26F31E7D2D31004F05E9 /* MBProgressHUD */,
+				05AC26AA1E7D27D6004F05E9 /* Main.storyboard */,
+				05AC26AD1E7D27D6004F05E9 /* Assets.xcassets */,
+				05AC26AF1E7D27D6004F05E9 /* LaunchScreen.storyboard */,
+				05AC26B21E7D27D6004F05E9 /* Info.plist */,
 				05AC26A21E7D27D6004F05E9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +162,78 @@
 				05AC26C81E7D27D6004F05E9 /* Info.plist */,
 			);
 			path = TextFieldEditeStateUITests;
+			sourceTree = "<group>";
+		};
+		05AC26D91E7D2B8F004F05E9 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				05AC26DA1E7D2B8F004F05E9 /* Controllers */,
+				05AC26DB1E7D2B8F004F05E9 /* Models */,
+				05AC26DC1E7D2B8F004F05E9 /* Views */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		05AC26DA1E7D2B8F004F05E9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				05AC26DE1E7D2BFA004F05E9 /* CMBaseViewController.h */,
+				05AC26DF1E7D2BFA004F05E9 /* CMBaseViewController.m */,
+				05AC26FE1E7D2DC0004F05E9 /* DaMainTableViewController.h */,
+				05AC26FF1E7D2DC0004F05E9 /* DaMainTableViewController.m */,
+				05AC26E01E7D2BFA004F05E9 /* PBChangeMoneyBaseViewController.h */,
+				05AC26E11E7D2BFA004F05E9 /* PBChangeMoneyBaseViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		05AC26DB1E7D2B8F004F05E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		05AC26DC1E7D2B8F004F05E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				05AC26F01E7D2D02004F05E9 /* DisplayHelper.h */,
+				05AC26F11E7D2D02004F05E9 /* DisplayHelper.m */,
+				05AC26ED1E7D2CCE004F05E9 /* CMCustomViewFactory.h */,
+				05AC26EE1E7D2CCE004F05E9 /* CMCustomViewFactory.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		05AC26DD1E7D2B97004F05E9 /* TextFeildState */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TextFeildState;
+			sourceTree = "<group>";
+		};
+		05AC26E41E7D2C25004F05E9 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				05AC26E51E7D2C25004F05E9 /* AppDelegate.h */,
+				05AC26E61E7D2C25004F05E9 /* AppDelegate.mm */,
+				05AC26E71E7D2C25004F05E9 /* CMHDemoDefine.h */,
+				05AC26E81E7D2C25004F05E9 /* CMHDemoDefine.m */,
+				05AC26E91E7D2C25004F05E9 /* CMHHeader.h */,
+				05AC26EA1E7D2C25004F05E9 /* TextFieldES.pch */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		05AC26F31E7D2D31004F05E9 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				05AC26F41E7D2D31004F05E9 /* LICENSE */,
+				05AC26F51E7D2D31004F05E9 /* MBProgressHUD.h */,
+				05AC26F61E7D2D31004F05E9 /* MBProgressHUD.m */,
+				05AC26F71E7D2D31004F05E9 /* README.mdown */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +298,7 @@
 		05AC26961E7D27D6004F05E9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Da;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = DaviD;
 				TargetAttributes = {
@@ -251,6 +348,7 @@
 			files = (
 				05AC26B11E7D27D6004F05E9 /* LaunchScreen.storyboard in Resources */,
 				05AC26AE1E7D27D6004F05E9 /* Assets.xcassets in Resources */,
+				05AC26F81E7D2D31004F05E9 /* LICENSE in Resources */,
 				05AC26AC1E7D27D6004F05E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,9 +374,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05AC26A91E7D27D6004F05E9 /* ViewController.m in Sources */,
-				05AC26A61E7D27D6004F05E9 /* AppDelegate.m in Sources */,
+				05AC26F21E7D2D02004F05E9 /* DisplayHelper.m in Sources */,
+				05AC26EF1E7D2CCE004F05E9 /* CMCustomViewFactory.m in Sources */,
+				05AC26EC1E7D2C25004F05E9 /* CMHDemoDefine.m in Sources */,
+				05AC26F91E7D2D31004F05E9 /* MBProgressHUD.m in Sources */,
 				05AC26A31E7D27D6004F05E9 /* main.m in Sources */,
+				05AC26E31E7D2BFA004F05E9 /* PBChangeMoneyBaseViewController.m in Sources */,
+				05AC26EB1E7D2C25004F05E9 /* AppDelegate.mm in Sources */,
+				05AC27001E7D2DC0004F05E9 /* DaMainTableViewController.m in Sources */,
+				05AC26E21E7D2BFA004F05E9 /* CMBaseViewController.m in Sources */,
+				05AC26FA1E7D2D31004F05E9 /* README.mdown in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +533,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V3VWCC65R7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TextFieldEditeState/General/TextFieldES.pch";
 				INFOPLIST_FILE = TextFieldEditeState/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dlwxDaviD.TextFieldEditeState;
@@ -440,6 +546,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V3VWCC65R7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TextFieldEditeState/General/TextFieldES.pch";
 				INFOPLIST_FILE = TextFieldEditeState/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dlwxDaviD.TextFieldEditeState;
@@ -516,6 +623,7 @@
 				05AC26CD1E7D27D6004F05E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05AC26CE1E7D27D6004F05E9 /* Build configuration list for PBXNativeTarget "TextFieldEditeStateTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +632,7 @@
 				05AC26D01E7D27D6004F05E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05AC26D11E7D27D6004F05E9 /* Build configuration list for PBXNativeTarget "TextFieldEditeStateUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +641,7 @@
 				05AC26D31E7D27D6004F05E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
