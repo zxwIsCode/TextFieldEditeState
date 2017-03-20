@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		052E0F861E7FC6B600761AA6 /* DaSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052E0F851E7FC6B600761AA6 /* DaSecondViewController.m */; };
 		052E0F891E7FCA4B00761AA6 /* DaManyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052E0F881E7FCA4B00761AA6 /* DaManyViewController.m */; };
+		052E0F8C1E7FCBB900761AA6 /* PBSafeChangePWDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 052E0F8B1E7FCBB900761AA6 /* PBSafeChangePWDModel.m */; };
+		052E0F8F1E7FCBE200761AA6 /* PBSafeChangePWDTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 052E0F8E1E7FCBE200761AA6 /* PBSafeChangePWDTableCell.m */; };
 		05AC26A31E7D27D6004F05E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26A21E7D27D6004F05E9 /* main.m */; };
 		05AC26AC1E7D27D6004F05E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05AC26AA1E7D27D6004F05E9 /* Main.storyboard */; };
 		05AC26AE1E7D27D6004F05E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05AC26AD1E7D27D6004F05E9 /* Assets.xcassets */; };
@@ -49,6 +51,10 @@
 		052E0F851E7FC6B600761AA6 /* DaSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaSecondViewController.m; sourceTree = "<group>"; };
 		052E0F871E7FCA4B00761AA6 /* DaManyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaManyViewController.h; sourceTree = "<group>"; };
 		052E0F881E7FCA4B00761AA6 /* DaManyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaManyViewController.m; sourceTree = "<group>"; };
+		052E0F8A1E7FCBB900761AA6 /* PBSafeChangePWDModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSafeChangePWDModel.h; sourceTree = "<group>"; };
+		052E0F8B1E7FCBB900761AA6 /* PBSafeChangePWDModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSafeChangePWDModel.m; sourceTree = "<group>"; };
+		052E0F8D1E7FCBE200761AA6 /* PBSafeChangePWDTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSafeChangePWDTableCell.h; sourceTree = "<group>"; };
+		052E0F8E1E7FCBE200761AA6 /* PBSafeChangePWDTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSafeChangePWDTableCell.m; sourceTree = "<group>"; };
 		05AC269E1E7D27D6004F05E9 /* TextFieldEditeState.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldEditeState.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05AC26A21E7D27D6004F05E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		05AC26AB1E7D27D6004F05E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -218,6 +224,10 @@
 				052E0F851E7FC6B600761AA6 /* DaSecondViewController.m */,
 				052E0F871E7FCA4B00761AA6 /* DaManyViewController.h */,
 				052E0F881E7FCA4B00761AA6 /* DaManyViewController.m */,
+				052E0F8A1E7FCBB900761AA6 /* PBSafeChangePWDModel.h */,
+				052E0F8B1E7FCBB900761AA6 /* PBSafeChangePWDModel.m */,
+				052E0F8D1E7FCBE200761AA6 /* PBSafeChangePWDTableCell.h */,
+				052E0F8E1E7FCBE200761AA6 /* PBSafeChangePWDTableCell.m */,
 			);
 			path = TextFeildState;
 			sourceTree = "<group>";
@@ -393,6 +403,8 @@
 				05AC27001E7D2DC0004F05E9 /* DaMainTableViewController.m in Sources */,
 				05AC26E21E7D2BFA004F05E9 /* CMBaseViewController.m in Sources */,
 				052E0F861E7FC6B600761AA6 /* DaSecondViewController.m in Sources */,
+				052E0F8F1E7FCBE200761AA6 /* PBSafeChangePWDTableCell.m in Sources */,
+				052E0F8C1E7FCBB900761AA6 /* PBSafeChangePWDModel.m in Sources */,
 				05AC27031E7D3C25004F05E9 /* DaFirstBaseViewController.m in Sources */,
 				052E0F891E7FCA4B00761AA6 /* DaManyViewController.m in Sources */,
 				05AC26FA1E7D2D31004F05E9 /* README.mdown in Sources */,

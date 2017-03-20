@@ -9,6 +9,7 @@
 #import "DaMainTableViewController.h"
 #import "DaFirstBaseViewController.h"
 #import "DaSecondViewController.h"
+#import "DaManyViewController.h"
 
 @interface DaMainTableViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -71,6 +72,13 @@
             if (YES) {
                 DaSecondViewController *secondVC =[[DaSecondViewController alloc]init];
                 [self.navigationController pushViewController:secondVC animated:YES];
+                
+            }
+            break;
+        case 2:
+            if (YES) {
+                DaManyViewController  *manyVC =[[DaManyViewController alloc]init];
+                [self.navigationController pushViewController:manyVC animated:YES];
                 
             }
             break;
