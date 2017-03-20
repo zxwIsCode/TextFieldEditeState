@@ -12,7 +12,6 @@
 
 
 
-
 @end
 
 @implementation DaFirstBaseViewController
@@ -76,17 +75,21 @@
 }
 
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
-    if (textField.text.length ==1) {
-        if (range.location ==1 &range.length ==0) {
-            self.isComeNext =YES;
-            return YES;
-        }
+    
+    if (range.location ==0 &range.length ==1) { // 从1个字母到0个字母（删除的情况）
         self.isComeNext =NO;
         return YES;
-
+    }else{ // 有字母的情况
+        if (range.location ==0 & range.length ==0) { // 从0个字母到1个 (添加的情况)
+            self.isComeNext =YES;
+        }
+        self.isComeNext =YES;
+        return YES;
     }
-    self.isComeNext =YES;
+    
+    DDLog(@"location = %lu,length = %lu ",range.location,range.length);
     return YES;
+   
   
 }
 
