@@ -11,6 +11,7 @@
 		052E0F891E7FCA4B00761AA6 /* DaManyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052E0F881E7FCA4B00761AA6 /* DaManyViewController.m */; };
 		052E0F8C1E7FCBB900761AA6 /* PBSafeChangePWDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 052E0F8B1E7FCBB900761AA6 /* PBSafeChangePWDModel.m */; };
 		052E0F8F1E7FCBE200761AA6 /* PBSafeChangePWDTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 052E0F8E1E7FCBE200761AA6 /* PBSafeChangePWDTableCell.m */; };
+		052E0F911E7FE05100761AA6 /* QQ20170320-174537-HD.gif in Resources */ = {isa = PBXBuildFile; fileRef = 052E0F901E7FE05100761AA6 /* QQ20170320-174537-HD.gif */; };
 		05AC26A31E7D27D6004F05E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26A21E7D27D6004F05E9 /* main.m */; };
 		05AC26AC1E7D27D6004F05E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05AC26AA1E7D27D6004F05E9 /* Main.storyboard */; };
 		05AC26AE1E7D27D6004F05E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05AC26AD1E7D27D6004F05E9 /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		052E0F8B1E7FCBB900761AA6 /* PBSafeChangePWDModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSafeChangePWDModel.m; sourceTree = "<group>"; };
 		052E0F8D1E7FCBE200761AA6 /* PBSafeChangePWDTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSafeChangePWDTableCell.h; sourceTree = "<group>"; };
 		052E0F8E1E7FCBE200761AA6 /* PBSafeChangePWDTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSafeChangePWDTableCell.m; sourceTree = "<group>"; };
+		052E0F901E7FE05100761AA6 /* QQ20170320-174537-HD.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "QQ20170320-174537-HD.gif"; sourceTree = "<group>"; };
 		05AC269E1E7D27D6004F05E9 /* TextFieldEditeState.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldEditeState.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05AC26A21E7D27D6004F05E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		05AC26AB1E7D27D6004F05E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 		05AC26A11E7D27D6004F05E9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				052E0F901E7FE05100761AA6 /* QQ20170320-174537-HD.gif */,
 				05AC26F31E7D2D31004F05E9 /* MBProgressHUD */,
 				05AC26AA1E7D27D6004F05E9 /* Main.storyboard */,
 				05AC26AD1E7D27D6004F05E9 /* Assets.xcassets */,
@@ -366,6 +369,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				052E0F911E7FE05100761AA6 /* QQ20170320-174537-HD.gif in Resources */,
 				05AC26B11E7D27D6004F05E9 /* LaunchScreen.storyboard in Resources */,
 				05AC26AE1E7D27D6004F05E9 /* Assets.xcassets in Resources */,
 				05AC26F81E7D2D31004F05E9 /* LICENSE in Resources */,
