@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		052E0F861E7FC6B600761AA6 /* DaSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052E0F851E7FC6B600761AA6 /* DaSecondViewController.m */; };
+		052E0F891E7FCA4B00761AA6 /* DaManyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052E0F881E7FCA4B00761AA6 /* DaManyViewController.m */; };
 		05AC26A31E7D27D6004F05E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26A21E7D27D6004F05E9 /* main.m */; };
 		05AC26AC1E7D27D6004F05E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05AC26AA1E7D27D6004F05E9 /* Main.storyboard */; };
 		05AC26AE1E7D27D6004F05E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05AC26AD1E7D27D6004F05E9 /* Assets.xcassets */; };
@@ -43,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		052E0F841E7FC6B600761AA6 /* DaSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaSecondViewController.h; sourceTree = "<group>"; };
+		052E0F851E7FC6B600761AA6 /* DaSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaSecondViewController.m; sourceTree = "<group>"; };
+		052E0F871E7FCA4B00761AA6 /* DaManyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaManyViewController.h; sourceTree = "<group>"; };
+		052E0F881E7FCA4B00761AA6 /* DaManyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaManyViewController.m; sourceTree = "<group>"; };
 		05AC269E1E7D27D6004F05E9 /* TextFieldEditeState.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldEditeState.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05AC26A21E7D27D6004F05E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		05AC26AB1E7D27D6004F05E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -208,6 +214,10 @@
 			children = (
 				05AC27011E7D3C25004F05E9 /* DaFirstBaseViewController.h */,
 				05AC27021E7D3C25004F05E9 /* DaFirstBaseViewController.m */,
+				052E0F841E7FC6B600761AA6 /* DaSecondViewController.h */,
+				052E0F851E7FC6B600761AA6 /* DaSecondViewController.m */,
+				052E0F871E7FCA4B00761AA6 /* DaManyViewController.h */,
+				052E0F881E7FCA4B00761AA6 /* DaManyViewController.m */,
 			);
 			path = TextFeildState;
 			sourceTree = "<group>";
@@ -382,7 +392,9 @@
 				05AC26EB1E7D2C25004F05E9 /* AppDelegate.mm in Sources */,
 				05AC27001E7D2DC0004F05E9 /* DaMainTableViewController.m in Sources */,
 				05AC26E21E7D2BFA004F05E9 /* CMBaseViewController.m in Sources */,
+				052E0F861E7FC6B600761AA6 /* DaSecondViewController.m in Sources */,
 				05AC27031E7D3C25004F05E9 /* DaFirstBaseViewController.m in Sources */,
+				052E0F891E7FCA4B00761AA6 /* DaManyViewController.m in Sources */,
 				05AC26FA1E7D2D31004F05E9 /* README.mdown in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

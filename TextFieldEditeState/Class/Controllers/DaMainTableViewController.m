@@ -8,6 +8,7 @@
 
 #import "DaMainTableViewController.h"
 #import "DaFirstBaseViewController.h"
+#import "DaSecondViewController.h"
 
 @interface DaMainTableViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -64,6 +65,13 @@
                 DaFirstBaseViewController *firstVC =[[DaFirstBaseViewController alloc]init];
                 [self.navigationController pushViewController:firstVC animated:YES];
 
+            }
+            break;
+        case 1:
+            if (YES) {
+                DaSecondViewController *secondVC =[[DaSecondViewController alloc]init];
+                [self.navigationController pushViewController:secondVC animated:YES];
+                
             }
             break;
             

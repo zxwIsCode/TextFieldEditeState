@@ -19,6 +19,8 @@
 
 #pragma mark - Init
 - (void)viewDidLoad {
+    
+    self.title = @"一个TextFeild";
     [super viewDidLoad];
     
     [self.view addSubview:self.superView];
