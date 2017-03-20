@@ -3,7 +3,7 @@
 
 
 首先先上个效果图
-![http://upload-images.jianshu.io/upload_images/3512530-903efa05395a590f.gif?imageMogr2/auto-orient/strip]
+![img]http://upload-images.jianshu.io/upload_images/3512530-903efa05395a590f.gif?imageMogr2/auto-orient/strip
 
 附上简书项目使用地址：
 http://www.jianshu.com/p/98629c2b6ba1
