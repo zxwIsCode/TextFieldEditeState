@@ -6,16 +6,16 @@
 //  Copyright © 2017年 DaviD. All rights reserved.
 //
 
-#import "PBChangeMoneyBaseViewController.h"
+#import "DaFirstBaseViewController.h"
 
-@interface PBChangeMoneyBaseViewController ()<UITextFieldDelegate>
+@interface DaFirstBaseViewController ()<UITextFieldDelegate>
 
 
 
 
 @end
 
-@implementation PBChangeMoneyBaseViewController
+@implementation DaFirstBaseViewController
 
 #pragma mark - Init
 - (void)viewDidLoad {
@@ -95,7 +95,7 @@
 #pragma mark - 子类继承
 
 -(NSString *)customRightTextFeildPlaceholder {
-    return @"请填写对方返付宝账户";
+    return @"请填写对方账户";
 }
 
 -(NSString *)customLeftLableText {
@@ -108,7 +108,7 @@
 // 点击下一步的按钮
 -(void)downBtnClick:(UIButton *)button {
     if (self.isComeNext) { //选中状态的时候才可以进去
-        DDLog(@"可以进入下个界面");
+        [DisplayHelper displaySuccessAlert:@"您点击了下一步按钮哦!"];
     }else {
         [DisplayHelper displayWarningAlert:@"请填写对方账户信息哦!"];
     }

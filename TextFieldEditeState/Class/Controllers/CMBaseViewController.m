@@ -81,7 +81,8 @@
     leftButton.frame = CGRectMake(-10, 0, 30, 34);
 //    leftButton.backgroundColor =[UIColor redColor];
     [leftButton setImage:[UIImage imageNamed:@"icon_fanhui"] forState:UIControlStateNormal];
-    
+    [leftButton setTitle:@"返回" forState:UIControlStateNormal];
+    leftButton.titleLabel.font =[UIFont systemFontOfSize:14 *kAppScale];
     [leftButton addTarget:self action:@selector(navigationLeftButtonClick:) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *leftItem = [[UIBarButtonItem alloc]initWithCustomView:leftButton];
     self.navigationItem.leftBarButtonItem = leftItem;

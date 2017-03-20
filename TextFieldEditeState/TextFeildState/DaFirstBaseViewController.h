@@ -8,7 +8,7 @@
 
 #import "CMBaseViewController.h"
 
-@interface PBChangeMoneyBaseViewController : CMBaseViewController
+@interface DaFirstBaseViewController : CMBaseViewController
 
 @property(nonatomic,strong)UILabel *leftLable;
 
@@ -21,6 +21,7 @@
 // 是否允许进入下一个界面
 @property(nonatomic,assign)BOOL isComeNext;
 
+#pragma mark - 子类继承
 -(NSString *)customRightTextFeildPlaceholder;
 -(NSString *)customLeftLableText;
 -(NSString *)customDownBtnTitleStr;

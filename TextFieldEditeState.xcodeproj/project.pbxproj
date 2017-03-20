@@ -14,7 +14,6 @@
 		05AC26BC1E7D27D6004F05E9 /* TextFieldEditeStateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26BB1E7D27D6004F05E9 /* TextFieldEditeStateTests.m */; };
 		05AC26C71E7D27D6004F05E9 /* TextFieldEditeStateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26C61E7D27D6004F05E9 /* TextFieldEditeStateUITests.m */; };
 		05AC26E21E7D2BFA004F05E9 /* CMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26DF1E7D2BFA004F05E9 /* CMBaseViewController.m */; };
-		05AC26E31E7D2BFA004F05E9 /* PBChangeMoneyBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26E11E7D2BFA004F05E9 /* PBChangeMoneyBaseViewController.m */; };
 		05AC26EB1E7D2C25004F05E9 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26E61E7D2C25004F05E9 /* AppDelegate.mm */; };
 		05AC26EC1E7D2C25004F05E9 /* CMHDemoDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26E81E7D2C25004F05E9 /* CMHDemoDefine.m */; };
 		05AC26EF1E7D2CCE004F05E9 /* CMCustomViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26EE1E7D2CCE004F05E9 /* CMCustomViewFactory.m */; };
@@ -23,6 +22,7 @@
 		05AC26F91E7D2D31004F05E9 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26F61E7D2D31004F05E9 /* MBProgressHUD.m */; };
 		05AC26FA1E7D2D31004F05E9 /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26F71E7D2D31004F05E9 /* README.mdown */; };
 		05AC27001E7D2DC0004F05E9 /* DaMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC26FF1E7D2DC0004F05E9 /* DaMainTableViewController.m */; };
+		05AC27031E7D3C25004F05E9 /* DaFirstBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC27021E7D3C25004F05E9 /* DaFirstBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +57,6 @@
 		05AC26C81E7D27D6004F05E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05AC26DE1E7D2BFA004F05E9 /* CMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBaseViewController.h; sourceTree = "<group>"; };
 		05AC26DF1E7D2BFA004F05E9 /* CMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBaseViewController.m; sourceTree = "<group>"; };
-		05AC26E01E7D2BFA004F05E9 /* PBChangeMoneyBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBChangeMoneyBaseViewController.h; sourceTree = "<group>"; };
-		05AC26E11E7D2BFA004F05E9 /* PBChangeMoneyBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBChangeMoneyBaseViewController.m; sourceTree = "<group>"; };
 		05AC26E51E7D2C25004F05E9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		05AC26E61E7D2C25004F05E9 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		05AC26E71E7D2C25004F05E9 /* CMHDemoDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHDemoDefine.h; sourceTree = "<group>"; };
@@ -75,6 +73,8 @@
 		05AC26F71E7D2D31004F05E9 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
 		05AC26FE1E7D2DC0004F05E9 /* DaMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaMainTableViewController.h; sourceTree = "<group>"; };
 		05AC26FF1E7D2DC0004F05E9 /* DaMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaMainTableViewController.m; sourceTree = "<group>"; };
+		05AC27011E7D3C25004F05E9 /* DaFirstBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaFirstBaseViewController.h; sourceTree = "<group>"; };
+		05AC27021E7D3C25004F05E9 /* DaFirstBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaFirstBaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,8 +181,6 @@
 				05AC26DF1E7D2BFA004F05E9 /* CMBaseViewController.m */,
 				05AC26FE1E7D2DC0004F05E9 /* DaMainTableViewController.h */,
 				05AC26FF1E7D2DC0004F05E9 /* DaMainTableViewController.m */,
-				05AC26E01E7D2BFA004F05E9 /* PBChangeMoneyBaseViewController.h */,
-				05AC26E11E7D2BFA004F05E9 /* PBChangeMoneyBaseViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -208,6 +206,8 @@
 		05AC26DD1E7D2B97004F05E9 /* TextFeildState */ = {
 			isa = PBXGroup;
 			children = (
+				05AC27011E7D3C25004F05E9 /* DaFirstBaseViewController.h */,
+				05AC27021E7D3C25004F05E9 /* DaFirstBaseViewController.m */,
 			);
 			path = TextFeildState;
 			sourceTree = "<group>";
@@ -379,10 +379,10 @@
 				05AC26EC1E7D2C25004F05E9 /* CMHDemoDefine.m in Sources */,
 				05AC26F91E7D2D31004F05E9 /* MBProgressHUD.m in Sources */,
 				05AC26A31E7D27D6004F05E9 /* main.m in Sources */,
-				05AC26E31E7D2BFA004F05E9 /* PBChangeMoneyBaseViewController.m in Sources */,
 				05AC26EB1E7D2C25004F05E9 /* AppDelegate.mm in Sources */,
 				05AC27001E7D2DC0004F05E9 /* DaMainTableViewController.m in Sources */,
 				05AC26E21E7D2BFA004F05E9 /* CMBaseViewController.m in Sources */,
+				05AC27031E7D3C25004F05E9 /* DaFirstBaseViewController.m in Sources */,
 				05AC26FA1E7D2D31004F05E9 /* README.mdown in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
