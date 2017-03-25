@@ -65,6 +65,8 @@
 
 -(void)textFieldDidBeginEditing:(UITextField *)textField {
     _safeChangePWDModel.rightTextStr =textField.text;
+    _safeChangePWDModel.rightReallayTextStr =[textField.text copy];
+    
     
     self.isComeNext =textField.text.length;
     
@@ -72,24 +74,58 @@
 
 -(void)textFieldDidEndEditing:(UITextField *)textField {
     _safeChangePWDModel.rightTextStr =textField.text;
+    _safeChangePWDModel.rightReallayTextStr =[textField.text copy];
     
     self.isComeNext =textField.text.length;
     
-    
 }
+
+//- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
+//    
+//    _safeChangePWDModel.rightTextStr =textField.text; //先赋值，后面再具体改值
+//    if (range.location ==0 &range.length ==1) { // 从1个字母到0个字母（删除的情况）
+//        _safeChangePWDModel.rightTextStr =@"";
+//        self.isComeNext =NO;
+//        return YES;
+//    }else{ // 有字母的情况
+//        if (range.location ==0 & range.length ==0) { // 从0个字母到1个 (添加的情况)
+//            _safeChangePWDModel.rightTextStr =string;
+//        }
+//        self.isComeNext =YES;
+//        return YES;
+//    }
+//    
+//    DDLog(@"location = %lu,length = %lu ",range.location,range.length);
+//    return YES;
+//    
+//}
+
+#warning 下面的是正确的方法，上面屏蔽的方法有缺陷
 
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
     
-    _safeChangePWDModel.rightTextStr =textField.text; //先赋值，后面再具体改值
-    if (range.location ==0 &range.length ==1) { // 从1个字母到0个字母（删除的情况）
-        _safeChangePWDModel.rightTextStr =@"";
-        self.isComeNext =NO;
-        return YES;
-    }else{ // 有字母的情况
-        if (range.location ==0 & range.length ==0) { // 从0个字母到1个 (添加的情况)
-            _safeChangePWDModel.rightTextStr =string;
+    _safeChangePWDModel.rightReallayTextStr =[textField.text copy]; // 真正的数据源，后面就不要改了,用copy撇开三者之间相互影响
+    _safeChangePWDModel.rightTextStr =textField.text; //先赋值，后面再具体改值（为了影响button的状态）
+    if (range.length ==1) { // 删除的情况
+        if (range.location ==0) { // 从1个字母到0个字母（删除的情况）
+            _safeChangePWDModel.rightTextStr =@"";
+            self.isComeNext =NO;
+            return YES;
         }
+        _safeChangePWDModel.rightReallayTextStr =[textField.text substringToIndex:textField.text.length -1];
         self.isComeNext =YES;
+        return YES;
+        
+    }
+    else{ // 添加的情况 （range.length ==0）
+        if (range.location ==0) { // 从0个字母到1个 (添加的情况)
+            _safeChangePWDModel.rightTextStr =string;
+            self.isComeNext =YES;
+            return YES;
+        }
+        _safeChangePWDModel.rightReallayTextStr =[NSString stringWithFormat:@"%@%@",textField.text,string];
+        self.isComeNext =YES;
+        
         return YES;
     }
     
@@ -97,6 +133,7 @@
     return YES;
     
 }
+
 
 -(void)setIsComeNext:(BOOL)isComeNext {
     _isComeNext =isComeNext;

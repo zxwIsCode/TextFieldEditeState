@@ -14,7 +14,11 @@
 
 @property(nonatomic,copy)NSString *rightPlaceholder;
 
+// 为了改变Button状态的数据源
 @property(nonatomic,copy)NSString *rightTextStr;
+
+// 真正的数据为多少,直接拿过来就可以用的情况
+@property(nonatomic,copy)NSString *rightReallayTextStr;
 
 +(instancetype)updateSafeChangePhoneModelWithDic:(NSDictionary *)dic;
 

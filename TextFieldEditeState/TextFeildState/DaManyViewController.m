@@ -94,7 +94,23 @@
 
 -(void)yesBtnClick:(UIButton *)button {
     if (self.isNextVC) {
-        [DisplayHelper displaySuccessAlert:@"修改登录密码成功哦!"];
+        if (self.allDataArr.count >=3) {
+            PBSafeChangePWDModel *oldPWDModel =self.allDataArr[0];
+            PBSafeChangePWDModel *newPWDModel =self.allDataArr[1];
+            PBSafeChangePWDModel *newPWDModel2 =self.allDataArr[2];
+            if ([newPWDModel.rightReallayTextStr isEqualToString:newPWDModel2.rightReallayTextStr] && newPWDModel2.rightTextStr.length !=0 && oldPWDModel.rightReallayTextStr.length !=0) {
+                [DisplayHelper displaySuccessAlert:@"修改登录密码成功哦!"];
+            }else {
+                if(![newPWDModel.rightReallayTextStr isEqualToString:newPWDModel2.rightReallayTextStr]){
+                    [DisplayHelper displayWarningAlert:@"二次输入的新密码不一致哦!"];
+                    return;
+                    
+                }
+                [DisplayHelper displayWarningAlert:@"请把所有密码补充完整哦!"];
+                
+            }
+        }
+
     }else {
         [DisplayHelper displayWarningAlert:@"请把所有密码补充完整哦!"];
     }
